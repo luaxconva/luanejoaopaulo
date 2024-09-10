@@ -1,0 +1,102 @@
+body {
+	background: rgb(160, 0, 240);
+}
+
+h1 {
+	font-size: 35px;
+	/*tamanho do texto*/
+	color: #000000;
+	/*cor do texto*/
+	text-align: center;
+    font-family: Chiller black;
+	/*fonte do texto*/
+}
+
+.a{
+    font-family: Chiller;
+    text-decoration: none;
+    font-size: 25px;
+}
+ 
+a:link {
+    color: #a45ee9;
+}
+
+a:visited {
+    color: rgb(0, 0, 0) ;
+}
+
+a:hover {
+    border-bottom: 3px solid rgb(255, 0, 179);
+    color: rgb(255, 0, 179);
+}
+
+a:active {
+    color: #520076;
+}
+
+
+li{
+    display: inline;
+    padding-right: 15px;
+}
+
+footer {
+    text-align: center;
+}
+
+.esquerda { 
+text-align: left;
+font-weight: bold;
+}
+.direita { 
+text-align: right;
+}
+.centro { 
+text-align: center;
+}
+.justificado { 
+text-align: justify;
+}
+
+
+#uppercase {
+	text-transform: uppercase;
+}
+
+#lowercase {
+	text-transform: lowercase;
+}
+
+#capitalize {
+	text-transform: capitalize;
+}
+
+.a {
+	text-indent: 50px;
+}
+
+.b {
+	text-indent: 70px;
+}
+
+.c {
+	text-indent: 90px;
+}
+
+#sombra {
+	text-shadow: 1px 10px 5px #9966FF;
+}
+
+.wordspacing {
+	word-spacing: 20px;
+}
+
+.letterspacing {
+	letter-spacing: 20px;
+}
+
+.listadesordenada {
+	color: #9966FF;
+} 
+
